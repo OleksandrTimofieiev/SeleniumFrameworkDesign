@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
 
-
+    <!--    <smth new>-->
     <!--    <Run Jenkins>-->
     <!--    <java -jar jenkins.war -httpPort=8080>-->
 
