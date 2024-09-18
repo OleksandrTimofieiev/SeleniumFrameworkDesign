@@ -1,7 +1,7 @@
     <!--    <for git commit>-->
     <!--    <Run Jenkins>-->
     <!--    <java -jar jenkins.war -httpPort=8080>-->
-    <!--    <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>-->
+    <!--    <test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>-->
 
     <!--    <Log in>-->
     <!--    <http://localhost:8080/-->
