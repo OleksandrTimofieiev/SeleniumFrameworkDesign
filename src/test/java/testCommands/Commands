@@ -1,0 +1,16 @@
+    <!--    <for git commit>-->
+    <!--    <Run Jenkins>-->
+    <!--    <java -jar jenkins.war -httpPort=8080>-->
+    <!--    <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>-->
+
+    <!--    <Log in>-->
+    <!--    <http://localhost:8080/-->
+
+<!--    <Run rests from a terminal>-->
+<!--    <mvn -f /Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/pom.xml test>-->
+
+    <!--    <Run a specific test from a terminal>-->
+<!--    <mvn -f /Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/pom.xml test -PRegression>-->
+
+    <!--    <Build triggers>-->
+    <!--    <40 6 * * 0 - > - The build will be triggered at 6:40 AM each Sunday>

@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Purchase"/>
+        </run>
+    </groups>
 
-    <!--    <smth new + updated in my IDE>-->
-    <!--    <Run Jenkins>-->
-    <!--    <java -jar jenkins.war -httpPort=8080>-->
-
-    <!--    <Log in>-->
-    <!--    <http://localhost:8080/-->
-
-<!--    <Run rests from a terminal>-->
-<!--    <mvn -f /Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/pom.xml test>-->
-
-    <!--    <Run a specific test from a terminal>-->
-<!--    <mvn -f /Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/pom.xml test -PRegression>-->
-
-    <!--    <Build triggers>-->
-    <!--    <40 6 * * 0 - > - The build will be triggered at 6:40 AM each Sunday>
-
-
-<!--    <groups>-->
-<!--        <run>-->
-<!--            <include name="Purchase"/>-->
-<!--        </run>-->
-<!--    </groups>-->
-
-<!--    <groups>-->
-<!--        <run>-->
-<!--            <include name="ErrorHandling"/>-->
-<!--        </run>-->
-<!--    </groups>-->
+    <groups>
+        <run>
+            <include name="ErrorHandling"/>
+        </run>
+    </groups>
 
     <listeners>
         <listener class-name="TestComponents.Listeners"></listener>
