@@ -20,7 +20,6 @@ public class StandAloneTest extends BaseTest {
 
     @Test(dataProvider = "getData", groups = "Purchase")
     public void submitOrder(HashMap<String, String> input) {
-        //Changes
 
         ProductCatalogue productCatalogue = landingPage.loginApp(input.get("email"), input.get("password"));
 
