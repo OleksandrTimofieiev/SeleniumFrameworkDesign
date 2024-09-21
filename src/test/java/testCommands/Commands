@@ -14,3 +14,13 @@
 
     <!--    <Build triggers>-->
     <!--    <40 6 * * 0 - > - The build will be triggered at 6:40 AM each Sunday>
+
+    <!--    <Selenium grid start a Node>-->
+    <!--    <cd Downloads>-->
+    <!--    <java -jar selenium-server-4.25.0.jar hub>-->
+
+
+    <!--    <Detet browsers in that node (from a new terminal window)>-->
+    <!--    <java -jar selenium-server-4.25.0.jar node --detect-drivers true>-->
+
+
