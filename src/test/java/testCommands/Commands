@@ -20,7 +20,7 @@
     <!--    <java -jar selenium-server-4.25.0.jar hub>-->
 
 
-    <!--    <Detet browsers in that node (from a new terminal window)>-->
+    <!--    <Deteсt browsers in that node (from a new terminal window)>-->
     <!--    <java -jar selenium-server-4.25.0.jar node --detect-drivers true>-->
 
 
