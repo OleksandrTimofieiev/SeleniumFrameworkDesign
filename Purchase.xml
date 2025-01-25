@@ -2,16 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
 
+    <groups>
+        <run>
+            <include name="Purchase"/>
+        </run>
+    </groups>
+
     <listeners>
-        <listener class-name="TestComponents.Listeners"></listener>
+        <listener class-name="TestComponents.Listeners"/>
     </listeners>
-
-        <groups>
-            <run>
-                <include name="Purchase"/>
-            </run>
-        </groups>
-
 
     <test verbose="2" preserve-order="true" name="/Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/src/test/java/alexacademy/tests/StandAloneTest.java">
         <classes>

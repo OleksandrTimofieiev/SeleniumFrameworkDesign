@@ -11,6 +11,7 @@ import resources.ExtentReporterNG;
 
 import java.io.IOException;
 
+//Creates an entry in a particular test case for reporting
 public class Listeners extends BaseTest implements ITestListener {
 
     ExtentTest test;
@@ -30,7 +31,6 @@ public class Listeners extends BaseTest implements ITestListener {
     }
     @Override
     public void onTestFailure(ITestResult result) {
-//        test.log(Status.FAIL, "The test has failed");
         extentTest.get().fail(result.getThrowable());
         String filePath = null;
 

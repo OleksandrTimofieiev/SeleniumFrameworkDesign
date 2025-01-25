@@ -3,6 +3,7 @@ package TestComponents;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
+//Allows us to retry a failed test a desired number of times
 public class Retry implements IRetryAnalyzer {
 
     int count = 0;

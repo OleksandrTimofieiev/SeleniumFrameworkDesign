@@ -1,4 +1,4 @@
-package alexacademy.stepDefinition;
+package alexacademy.stepDefinitionCucumber;
 
 import TestComponents.BaseTest;
 import alexacademy.tests.CheckOutPage;
@@ -15,7 +15,6 @@ public class StepDefinitionImplementation extends BaseTest {
 
     public LandingPage landingPage;
     public ProductCatalogue productCatalogue;
-    public CheckOutPage checkOutPage;
 
     @Given("I landed on Ecommerce Page")
     public void i_landed_on_ecommerce_page() throws IOException {
@@ -37,7 +36,6 @@ public class StepDefinitionImplementation extends BaseTest {
         productCatalogue.checkOutPage();
         CheckOutPage checkOutPage = productCatalogue.checkOutButton();
         checkOutPage.selectCountry(country);
-//        String confirmationPage = checkOutPage.placeAnOrderAndVerify();
         checkOutPage.placeAnOrderAndVerify();
     }
 

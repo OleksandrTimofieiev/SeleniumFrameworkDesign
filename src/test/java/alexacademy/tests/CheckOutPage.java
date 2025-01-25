@@ -7,17 +7,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+//Here we store our methods and locators related to check out
 public class CheckOutPage extends AbstractComponent {
-
     WebDriver driver;
     CheckOutPage(WebDriver driver){
         super(driver);
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
-    @FindBy(xpath = "//input[@type=\"email\"]")
-    WebElement login2;
 
     @FindBy(css = "input[placeholder=\"Select Country\"]")
     WebElement selectCountry;
@@ -47,7 +44,6 @@ public class CheckOutPage extends AbstractComponent {
     public String placeAnOrderAndVerify() {
         placeAnOrder.click();
         waitForAnElementToAppear(newPage);
-//        Assert.assertTrue(banner.getText().equalsIgnoreCase("Thank you for the order."));
         return banner.getText();
     }
 

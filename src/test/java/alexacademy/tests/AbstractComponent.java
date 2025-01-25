@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
+//Contains functions related to navigation to a page or different waits
 abstract public class AbstractComponent {
     WebDriver driver;
     public AbstractComponent(WebDriver driver) {
@@ -26,12 +27,6 @@ abstract public class AbstractComponent {
         return orderPage;
     }
 
-//    WebDriver driver;
-//    AbstractComponent(WebDriver driver) {
-//        this.driver = driver;
-//        PageFactory.initElements(driver, this);
-//    }
-
     public void waitForAnElementToAppear(By findBy) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
@@ -45,5 +40,10 @@ abstract public class AbstractComponent {
     public void waitForAnElementToAppear(WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public void waitForAnElementToBeClickable(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 }

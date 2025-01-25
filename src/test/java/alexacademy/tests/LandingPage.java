@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+//Here we store our methods and locators related to log in
 public class LandingPage extends AbstractComponent {
-
     WebDriver driver;
     public LandingPage(WebDriver driver){
         super(driver);
