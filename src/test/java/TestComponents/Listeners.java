@@ -17,7 +17,7 @@ public class Listeners extends BaseTest implements ITestListener {
     ExtentTest test;
     ExtentReports extent = ExtentReporterNG.getReportObject();
 
-    ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+    ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
 
     @Override
     public void onTestStart(ITestResult result) {
@@ -37,9 +37,7 @@ public class Listeners extends BaseTest implements ITestListener {
         try {
             driver = (WebDriver) result.getTestClass().getRealClass().getField("driver")
                     .get(result.getInstance());
-        } catch (NoSuchFieldException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
+        } catch (NoSuchFieldException | IllegalAccessException e) {
             e.printStackTrace();
         }
 
