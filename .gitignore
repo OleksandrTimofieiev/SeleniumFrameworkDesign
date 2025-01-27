@@ -2,7 +2,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-/Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/src/main/java/cucumber/TestNGTestRunner.java
+SeleniumFrameworkDesign/src/main/java/cucumber/*
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
