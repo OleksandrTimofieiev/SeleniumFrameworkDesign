@@ -11,7 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
-SeleniumFrameworkDesign/src/main/java/cucumber/*
+
 
 ### Eclipse ###
 .apt_generated
@@ -37,4 +37,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-/.idea/
