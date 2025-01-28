@@ -11,7 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
-/.idea/
+.idea/
 
 
 ### Eclipse ###
@@ -38,4 +38,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-/.idea/
