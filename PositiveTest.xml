@@ -9,12 +9,12 @@
     </groups>
 
     <listeners>
-        <listener class-name="TestComponents.Listeners"/>
+        <listener class-name="testComponents.Listeners"/>
     </listeners>
 
-    <test verbose="2" name="/Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/src/test/java/alexacademy/tests/StandAloneTest.java">
+    <test verbose="2" name="/Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/src/test/java/dataAndComponents/tests/StandAloneTest.java">
         <classes>
-            <class name="alexacademy.tests.StandAloneTest"/>
+            <class name="dataAndComponents.tests.StandAloneTest"/>
         </classes>
     </test>
 </suite>

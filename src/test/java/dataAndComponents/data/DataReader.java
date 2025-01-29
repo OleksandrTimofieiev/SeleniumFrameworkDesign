@@ -1,4 +1,4 @@
-package alexacademy.data;
+package dataAndComponents.data;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

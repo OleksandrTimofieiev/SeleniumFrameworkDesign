@@ -1,7 +1,7 @@
-package TestComponents;
+package testComponents;
 
-import alexacademy.data.DataReader;
-import alexacademy.tests.LandingPage;
+import dataAndComponents.data.DataReader;
+import dataAndComponents.tests.LandingPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Dimension;

@@ -1,7 +1,7 @@
-package alexacademy.tests;
+package dataAndComponents.tests;
 
-import TestComponents.BaseTest;
-import TestComponents.Retry;
+import testComponents.BaseTest;
+import testComponents.Retry;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

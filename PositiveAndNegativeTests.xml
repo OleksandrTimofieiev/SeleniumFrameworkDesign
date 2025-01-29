@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <groups>
+        <run>
+            <include name="Purchase"/>
+            <include name="ErrorHandling"/>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="testComponents.Listeners"/>
+    </listeners>
+
+    <test verbose="2" name="/Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/src/test/java/dataAndComponents/tests/StandAloneTest.java">
+        <classes>
+            <class name="dataAndComponents.tests.StandAloneTest"/>
+        </classes>
+    </test>
+
+    <test verbose="2" name="/Users/alextimofeev/IdeaProjects/SeleniumFrameworkDesign/src/test/java/dataAndComponents/tests/ErrorValidation.java">
+        <classes>
+            <class name="dataAndComponents.tests.ErrorValidation"/>
+        </classes>
+    </test>
+</suite>

@@ -1,4 +1,4 @@
-package alexacademy.tests;
+package dataAndComponents.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-import static alexacademy.tests.StandAloneTest.productName;
+import static dataAndComponents.tests.StandAloneTest.productName;
 
 //Here we store our methods and locators related to finding a product in 'orders' page
 public class OrderPage extends AbstractComponent {

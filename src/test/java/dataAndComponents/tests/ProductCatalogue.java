@@ -1,4 +1,4 @@
-package alexacademy.tests;
+package dataAndComponents.tests;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;

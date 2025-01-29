@@ -1,6 +1,6 @@
-package alexacademy.tests;
+package dataAndComponents.tests;
 
-import TestComponents.BaseTest;
+import testComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
