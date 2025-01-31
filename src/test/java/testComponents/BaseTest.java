@@ -76,7 +76,7 @@ public class BaseTest extends DataReader {
     public Object[][] getData() throws IOException {
 
         //We are getting the data from the 'PurchaseOrder' JSON file
-        String path = System.getProperty("user.dir")+"/src/test/java/alexacademy/data/PurchaseOrder.json";
+        String path = System.getProperty("user.dir")+"/src/test/java/dataAndComponents/data/PurchaseOrder.json";
         List<HashMap<String, String>> data = getJsonDataToMap(path);
 
         return new Object[][] {{data.get(0)},{data.get(1)}};
