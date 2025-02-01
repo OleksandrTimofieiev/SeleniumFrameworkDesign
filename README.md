@@ -29,6 +29,7 @@ The framework is built with scalability, maintainability, and reusability in min
 ## Installation
 * Clone the repository:
 * git clone https://github.com/OleksandrTimofieiev/SeleniumFrameworkDesign.git
+* ![git clone](https://img.shields.io/badge/-https://github.com/OleksandrTimofieiev/SeleniumFrameworkDesign.git-090909)
 
 * Navigate to the project directory:
 * cd SeleniumFrameworkDesign
