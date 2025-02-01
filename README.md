@@ -20,8 +20,24 @@ The framework is built with scalability, maintainability, and reusability in min
 * CI/CD Integration: Ready to integrate with CI/CD tools like Jenkins, GitHub Actions, or GitLab CI.
 
 ## Prerequisites
-Before using this framework, ensure you have the following installed:
-Java JDK (version 8 or higher).
-Maven (for dependency management).
-Browser drivers (e.g., ChromeDriver, GeckoDriver).
-IDE (e.g., IntelliJ IDEA, Eclipse).
+* Before using this framework, ensure you have the following installed:
+* Java JDK (version 8 or higher).
+* Maven (for dependency management).
+* Browser drivers (e.g., ChromeDriver, GeckoDriver).
+* IDE (e.g., IntelliJ IDEA, Eclipse).
+
+## Installation
+* Clone the repository:
+* git clone https://github.com/OleksandrTimofieiev/SeleniumFrameworkDesign.git
+
+* Navigate to the project directory:
+* cd SeleniumFrameworkDesign
+
+* Install dependencies using Maven:
+* mvn clean install
+
+
+
+
+
+
