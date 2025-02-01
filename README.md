@@ -49,9 +49,9 @@ The framework is built with scalability, maintainability, and reusability in min
 * Create new test classes in the src/test/java directory.
 * Follow the Page Object Model (POM) design pattern for maintainability.
 
-## Project Structure
+### Project Structure
 SeleniumFrameworkDesign
-
+```
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -66,6 +66,7 @@ SeleniumFrameworkDesign
 ├── test-output/                # Test reports and logs
 ├── pom.xml                     # Maven configuration
 └── README.md                   # Project documentation
+```
 
 ## Reporting
 
