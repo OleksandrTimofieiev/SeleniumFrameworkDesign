@@ -28,28 +28,27 @@ The framework is built with scalability, maintainability, and reusability in min
 
 ## Installation
 * Clone the repository:
-* git clone https://github.com/OleksandrTimofieiev/SeleniumFrameworkDesign.git
-* ![git clone](https://img.shields.io/badge/-https://github.com/OleksandrTimofieiev/SeleniumFrameworkDesign.git-090909)
+```git clone https://github.com/OleksandrTimofieiev/SeleniumFrameworkDesign.git```
 
 * Navigate to the project directory:
-* cd SeleniumFrameworkDesign
+```cd SeleniumFrameworkDesign```
 
 * Install dependencies using Maven:
-* mvn clean install
+```mvn clean install```
 
 ## Usage
-# Running Tests:
+### Running Tests:
 * To run all tests:
-* mvn test
+```mvn test```
 
 * To run specific test suites:
-* mvn test -DsuiteXmlFile=testng.xml
+```mvn test -DsuiteXmlFile=testng.xml```
 
-# Adding New Tests:
-* Create new test classes in the src/test/java directory.
+### Adding New Tests:
+* Create new test classes in the ```src/test/java``` directory.
 * Follow the Page Object Model (POM) design pattern for maintainability.
 
-### Project Structure
+## Project Structure
 SeleniumFrameworkDesign
 ```
 ├── src/
