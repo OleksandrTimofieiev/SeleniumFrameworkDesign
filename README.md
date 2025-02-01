@@ -37,6 +37,46 @@ The framework is built with scalability, maintainability, and reusability in min
 * Install dependencies using Maven:
 * mvn clean install
 
+## Usage
+# Running Tests:
+* To run all tests:
+* mvn test
+
+* To run specific test suites:
+* mvn test -DsuiteXmlFile=testng.xml
+
+# Adding New Tests:
+* Create new test classes in the src/test/java directory.
+* Follow the Page Object Model (POM) design pattern for maintainability.
+
+## Project Structure
+SeleniumFrameworkDesign
+
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── pages/          # Page classes following POM
+│   │   │   ├── utils/          # Utility classes (e.g., helpers, config readers)
+│   │   │   └── base/           # Base classes (e.g., BaseTest, WebDriver setup)
+│   │   └── resources/          # Configuration files (e.g., config.properties)
+│   └── test/
+│       ├── java/
+│       │   └── tests/          # Test classes
+│       └── resources/          # Test data (e.g., Excel, JSON files)
+├── test-output/                # Test reports and logs
+├── pom.xml                     # Maven configuration
+└── README.md                   # Project documentation
+
+## Reporting
+
+* The framework generates detailed test execution reports using ExtentReports. 
+* After running the tests, you can find the reports in the test-output/ directory.
+
+## Acknowledgments
+* Selenium for providing the automation framework.
+* TestNG for test execution and parallel testing.
+* ExtentReports for reporting.
+
 
 
 
