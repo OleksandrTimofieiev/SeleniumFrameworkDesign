@@ -34,15 +34,21 @@ The framework is built with scalability, maintainability, and reusability in min
 ```cd SeleniumFrameworkDesign```
 
 * Install dependencies using Maven:
-```mvn clean install```
+```sh
+mvn clean install
+```
 
 ## Usage
 ### Running Tests:
 * To run all tests:
-```mvn test```
+```sh
+mvn test
+```
 
 * To run specific test suites:
-```mvn test -DsuiteXmlFile=testng.xml```
+```sh
+mvn test -DsuiteXmlFile=testng.xml
+```
 
 ### Adding New Tests:
 * Create new test classes in the ```src/test/java``` directory.
