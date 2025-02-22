@@ -27,7 +27,7 @@ public class StandAloneTest extends BaseTest {
     }
 
     //Positive 'order history' test case
-    public static final String productName = "Refrigerator";
+    public static final String productName = "ZARA COAT 3";
     @Test(dependsOnMethods = {"submitOrder"})
     public void orderHistory() {
         ProductCatalogue productCatalogue = landingPage.loginApp("test1000332@gmail.com", "M267280m");
