@@ -57,20 +57,26 @@ mvn test -DsuiteXmlFile=testng.xml
 ## Project Structure
 SeleniumFrameworkDesign
 ```
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── pages/          # Page classes following POM
-│   │   │   ├── utils/          # Utility classes (e.g., helpers, config readers)
-│   │   │   └── base/           # Base classes (e.g., BaseTest, WebDriver setup)
-│   │   └── resources/          # Configuration files (e.g., config.properties)
-│   └── test/
-│       ├── java/
-│       │   └── tests/          # Test classes
-│       └── resources/          # Test data (e.g., Excel, JSON files)
-├── test-output/                # Test reports and logs
-├── pom.xml                     # Maven configuration
-└── README.md                   # Project documentation
+├── .gitignore                  # Specifies files and directories ignored by Git
+├── pom.xml                     # Maven configuration file
+├── README.md                   # Project documentation
+└── src/
+    └── test/
+        └── java/
+            ├── dataAndComponents/      # Contains test data, reports, and test classes
+            │   ├── data/               # Test data files (e.g., JSON, Excel, CSV) and data reader
+            │   ├── reports/            # Test execution reports
+            │   ├──  tests/             # Test classes (e.g., end-to-end tests)
+            │   │   ├── AbstractComponent.java # Base class for reusable UI components
+            │   │   ├── ErrorValidation.java # Tests for validating error scenarios
+            │   │   ├── CheckOutPage.java # Page class for the check out page
+            │   │   ├── LandingPage.java # Page class for the landing page
+            │   │   ├── OrderPage.java # Page class for the order page
+            │   │   ├── ProductCatalogue.java # Page class for the product catalogue
+            │   │   └── StandAloneTest.java # Standalone test class for running individual tests
+            ├── resources/             # Resources for test execution
+            ├── screenshots/           # Screenshots captured during test execution
+            └── testComponents/        # Core framework components (test setup, listeners, etc.)
 ```
 
 ## Reporting
