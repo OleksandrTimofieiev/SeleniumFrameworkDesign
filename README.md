@@ -66,7 +66,7 @@ SeleniumFrameworkDesign
             ├── dataAndComponents/      # Contains test data, reports, and test classes
             │   ├── data/               # Test data files (e.g., JSON, Excel, CSV) and data reader
             │   ├── reports/            # Test execution reports
-            │   ├──  tests/             # Test classes (e.g., end-to-end tests)
+            │   ├── tests/             # Test classes (e.g., end-to-end tests)
             │   │   ├── AbstractComponent.java # Base class for reusable UI components
             │   │   ├── ErrorValidation.java # Tests for validating error scenarios
             │   │   ├── CheckOutPage.java # Page class for the check out page
