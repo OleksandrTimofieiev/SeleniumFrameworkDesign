@@ -74,9 +74,9 @@ SeleniumFrameworkDesign
             │   │   ├── OrderPage.java # Page class for the order page
             │   │   ├── ProductCatalogue.java # Page class for the product catalogue
             │   │   └── StandAloneTest.java # Standalone test class for running individual tests
-            ├── resources/             # Resources for test execution
-            ├── screenshots/           # Screenshots captured during test execution
-            └── testComponents/        # Core framework components (test setup, listeners, etc.)
+            ├── resources/         # Resources for test execution
+            ├── screenshots/       # Screenshots captured during test execution
+            └── testComponents/    # Core framework components (test setup, listeners, etc.)
 ```
 
 ## Reporting
