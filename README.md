@@ -82,7 +82,7 @@ SeleniumFrameworkDesign
 ## Reporting
 
 * The framework generates detailed test execution reports using ExtentReports. 
-* After running the tests, you can find the reports in the ```test-output/``` directory.
+* After running the tests, you can find the reports in the ```reports/``` package.
 
 ## Acknowledgments
 * Selenium for providing the automation framework.
